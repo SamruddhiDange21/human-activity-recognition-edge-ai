@@ -118,11 +118,7 @@ edge-ai-project/
 └── README.md
 ```
 
----
 
-
-
----
 
 ## 💡 Conclusion
 
