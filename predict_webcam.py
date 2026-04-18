@@ -5,7 +5,7 @@ from torchvision import models, transforms
 
 # Classes (VERY IMPORTANT — must match folder names)
 classes = ['sitting', 'standing']
-
+ # will add the waving soon 
 # Load model
 model = models.mobilenet_v2(weights=None)
 model.classifier[1] = nn.Linear(model.last_channel, len(classes))
