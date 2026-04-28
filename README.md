@@ -70,9 +70,11 @@ This project focuses on building a **complete system**:
 
 ## 🚀 Features
 
-* Real-time webcam-based prediction
+* **Continuous Data Collection**: Automated image capturing mode in `collect_data.py`.
+* **Robust Training Pipeline**: Includes Train/Validation split and data augmentation in `train.py`.
+* **Real-time Inference Enhancements**: Added real-time FPS tracking and confidence score displays in `predict_webcam.py`.
 * Custom dataset creation pipeline
-* Lightweight model suitable for edge environments
+* Lightweight MobileNetV2 model suitable for edge environments
 * End-to-end ML workflow implementation
 
 ---
@@ -92,8 +94,8 @@ This project focuses on building a **complete system**:
 
 * Add more activities (walking, waving)
 * Improve dataset diversity (different people, backgrounds)
-* Optimize model for faster inference (Edge AI focus)
-* Evaluate performance using metrics like accuracy and FPS
+* Try other architectures to see how they perform on edge devices
+* Deploy to an actual edge device like Raspberry Pi
 
 ---
 
